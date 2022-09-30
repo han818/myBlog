@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS基础语法 | myblog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="我的技术博客">
+    
+    <link rel="preload" href="/myBlog/assets/css/0.styles.a7515051.css" as="style"><link rel="preload" href="/myBlog/assets/js/app.2e46e0e4.js" as="script"><link rel="preload" href="/myBlog/assets/js/3.9490caa6.js" as="script"><link rel="preload" href="/myBlog/assets/js/1.ef43800b.js" as="script"><link rel="preload" href="/myBlog/assets/js/26.82854dc9.js" as="script"><link rel="prefetch" href="/myBlog/assets/js/10.4026a63d.js"><link rel="prefetch" href="/myBlog/assets/js/11.3b74bebe.js"><link rel="prefetch" href="/myBlog/assets/js/12.8815afd3.js"><link rel="prefetch" href="/myBlog/assets/js/13.e859fccf.js"><link rel="prefetch" href="/myBlog/assets/js/14.8538a64e.js"><link rel="prefetch" href="/myBlog/assets/js/15.18254f1d.js"><link rel="prefetch" href="/myBlog/assets/js/16.ec822539.js"><link rel="prefetch" href="/myBlog/assets/js/17.2067b20b.js"><link rel="prefetch" href="/myBlog/assets/js/18.5fa3511e.js"><link rel="prefetch" href="/myBlog/assets/js/19.fd451fc5.js"><link rel="prefetch" href="/myBlog/assets/js/20.c72b8c8d.js"><link rel="prefetch" href="/myBlog/assets/js/21.77f9d42e.js"><link rel="prefetch" href="/myBlog/assets/js/22.13364324.js"><link rel="prefetch" href="/myBlog/assets/js/23.0f0434c2.js"><link rel="prefetch" href="/myBlog/assets/js/24.f8774bf3.js"><link rel="prefetch" href="/myBlog/assets/js/25.ad75f51a.js"><link rel="prefetch" href="/myBlog/assets/js/27.15a6d65f.js"><link rel="prefetch" href="/myBlog/assets/js/28.b003220d.js"><link rel="prefetch" href="/myBlog/assets/js/29.fcaa2ad4.js"><link rel="prefetch" href="/myBlog/assets/js/4.ddb8ad91.js"><link rel="prefetch" href="/myBlog/assets/js/5.bb200a59.js"><link rel="prefetch" href="/myBlog/assets/js/6.d7ae1787.js"><link rel="prefetch" href="/myBlog/assets/js/7.cc17a580.js"><link rel="prefetch" href="/myBlog/assets/js/8.b7d18a27.js"><link rel="prefetch" href="/myBlog/assets/js/9.a2b0ad82.js">
+    <link rel="stylesheet" href="/myBlog/assets/css/0.styles.a7515051.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-5bb33761><div data-v-5bb33761><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-5bb33761 data-v-5bb33761><h3 class="title" data-v-59e6cb88>myblog</h3> <p class="description" data-v-59e6cb88>我的技术博客</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2022
+      </a></span></div></div> <div class="hide" data-v-5bb33761><header class="navbar" data-v-5bb33761><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myBlog/" class="home-link router-link-active"><img src="/myBlog/ac.jpg" alt="myblog" class="logo"> <span class="site-name">myblog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myBlog/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Github/Gitee项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://gitee.com/han-zzgo/vue_shop" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Vue2商城后台管理
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/han-zzgo/boke" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vue2个人博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/han818/interview" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vuepress博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      上线个人项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="http://1.117.88.81:8080/#/login" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vue2个人博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://han818.github.io/interview/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vuepress博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      hannz的博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/3558485311363677" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/han818" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/han-zzgo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  码云
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-5bb33761></div> <aside class="sidebar" data-v-5bb33761><div class="personal-info-wrapper" data-v-1fad0c41 data-v-5bb33761><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>18</h3> <h6 data-v-1fad0c41>文章</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>标签</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/myBlog/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Github/Gitee项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://gitee.com/han-zzgo/vue_shop" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Vue2商城后台管理
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/han-zzgo/boke" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vue2个人博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/han818/interview" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vuepress博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      上线个人项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="http://1.117.88.81:8080/#/login" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vue2个人博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://han818.github.io/interview/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  vuepress博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      hannz的博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/3558485311363677" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/han818" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/han-zzgo" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  码云
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/myBlog/" class="sidebar-heading clickable router-link-active"><span>欢迎学习</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/myBlog/" aria-current="page" class="sidebar-link">博客简介</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/myBlog/handbook/1" class="sidebar-heading clickable open"><span>前端</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/myBlog/handbook/5.html" class="sidebar-link">jQuery</a></li><li><a href="/myBlog/handbook/1.html" class="sidebar-link">vuepress搭建个人博客</a></li><li><a href="/myBlog/handbook/2.html" class="sidebar-link">移动端开发之Flex弹性布局</a></li><li><a href="/myBlog/handbook/10.html" class="sidebar-link">移动端开发之流式布局</a></li><li><a href="/myBlog/handbook/8.html" aria-current="page" class="active sidebar-link">JS基础</a></li><li><a href="/myBlog/handbook/7.html" class="sidebar-link">原生ajax与跨域方法</a></li><li><a href="/myBlog/handbook/9.html" class="sidebar-link">get和post表单提交方式区别</a></li><li><a href="/myBlog/handbook/6.html" class="sidebar-link">JS 数组api</a></li><li><a href="/myBlog/handbook/12.html" class="sidebar-link">JS 字符串api</a></li><li><a href="/myBlog/handbook/11.html" class="sidebar-link">CSS3整理</a></li><li><a href="/myBlog/handbook/13.html" class="sidebar-link">bootstrap</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/myBlog/handbook/3" class="sidebar-heading clickable"><span>基础算法</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/myBlog/handbook/111" class="sidebar-heading clickable"><span>面试</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-5bb33761><h3 class="title" data-v-59e6cb88>JS基础语法</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2022
+      </a></span></div></div> <div data-v-5bb33761><div data-v-5bb33761><main class="page" style="padding-right:0;"><section style="display:;"><div class="page-title"><h1 class="title">JS基础语法</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>hannzz</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>2022/9/27</span></i> <!----> <!----></div></div> <div class="theme-reco-content content__default"><p></p><div class="table-of-contents"><ul><li><a href="#_1、解释">1、解释:</a></li><li><a href="#_2、变量-存放数据">2、变量=&gt;存放数据</a></li><li><a href="#_3、语法结构">3、语法结构</a></li><li><a href="#_4、数据结构">4、数据结构</a><ul><li><a href="#_5、函数">5、函数</a></li><li><a href="#_6、参数">6、参数</a></li></ul></li></ul></div><p></p> <h2 id="_1、解释"><a href="#_1、解释" class="header-anchor">#</a> 1、解释:</h2> <ol><li><p>以事件驱动的的弱类型脚本语言</p></li> <li><p>运行在浏览器中</p></li> <li><p>通过浏览器的内核解析代码</p> <ul><li><p>渲染引擎 解析HTML&amp;css</p></li> <li><p>js解析引擎  解析执行js</p></li></ul></li></ol> <h2 id="_2、变量-存放数据"><a href="#_2、变量-存放数据" class="header-anchor">#</a> 2、变量=&gt;存放数据</h2> <p>声明变量 :var a</p> <h4 id="基本数据类型"><a href="#基本数据类型" class="header-anchor">#</a> 基本数据类型:</h4> <p>undefined 未赋值</p> <p>null 空  (obj)</p> <p>number</p> <p>boolean</p> <p>string</p> <h4 id="数据结构"><a href="#数据结构" class="header-anchor">#</a> 数据结构:</h4> <p>array</p> <p>object</p> <p>function</p> <h4 id="运算符"><a href="#运算符" class="header-anchor">#</a> 运算符</h4> <p>算术运算符：+-*/% ++ -- ()</p> <p>比较运算符: &gt;&lt; == &gt;= &lt;= != === !==</p> <p>逻辑运算符: &amp;&amp; || !</p> <p>赋值运算符号: = += -= /= %=</p> <h2 id="_3、语法结构"><a href="#_3、语法结构" class="header-anchor">#</a> 3、语法结构</h2> <h4 id="分支"><a href="#分支" class="header-anchor">#</a> 分支：</h4> <p>if else</p> <h4 id="三目运算符-三元表达式"><a href="#三目运算符-三元表达式" class="header-anchor">#</a> 三目运算符/三元表达式:</h4> <p>条件?A1:B2</p> <h4 id="switch"><a href="#switch" class="header-anchor">#</a> switch:</h4> <div class="language- extra-class"><pre class="language-text"><code>switch(表达式){
+
+case A：
+
+​		代码1;
+
+​		break;
+
+case B:
+
+​		代码2;
+
+​		break;
+
+default:
+
+​	其他;
+
+}
+</code></pre></div><h4 id="while循环"><a href="#while循环" class="header-anchor">#</a> while循环</h4> <div class="language- extra-class"><pre class="language-text"><code>while(条件){
+
+循环体
+
+}
+</code></pre></div><h4 id="do-while循环"><a href="#do-while循环" class="header-anchor">#</a> do while循环</h4> <div class="language- extra-class"><pre class="language-text"><code>do{
+
+循环体
+
+}while(条件)
+</code></pre></div><h4 id="for循环"><a href="#for循环" class="header-anchor">#</a> for循环</h4> <div class="language- extra-class"><pre class="language-text"><code>for(){
+
+}
+</code></pre></div><h2 id="_4、数据结构"><a href="#_4、数据结构" class="header-anchor">#</a> 4、数据结构</h2> <h4 id="数组-一堆有序数据的集合"><a href="#数组-一堆有序数据的集合" class="header-anchor">#</a> 数组:一堆有序数据的集合</h4> <p>构造函数实例化 new Array()</p> <p>直接量   []</p> <div class="language- extra-class"><pre class="language-text"><code>var arr = new Array(1,2,3);
+
+arr = [];
+
+//数组名[索引]
+
+arr[0]
+
+arr.push() 从数组末尾添加
+</code></pre></div><h3 id="_5、函数"><a href="#_5、函数" class="header-anchor">#</a> 5、函数</h3> <p>一段可重复执行的代码，不调用不执行</p> <p>函数名指向自己</p> <div class="language- extra-class"><pre class="language-text"><code>//构造函数实例化
+
+new Function()
+
+//关键字
+
+function run(){
+	console.log(this)
+}
+var arr=[1,2,3]
+//匿名函数
+
+function(){
+	this//指向函数调用的对象
+}
+var a = function(){}
+var a = new function(){} //a 为构造函数的实例对象
+dom.onclick=function(){}
+(function(){
+
+})()//立即执行函数
+arguments.callee //指向函数自身
+var person = {
+fun:fun
+}
+person.fun.call(arr,1,2)
+person.fun.apply(person,[1,2])
+</code></pre></div><h3 id="_6、参数"><a href="#_6、参数" class="header-anchor">#</a> 6、参数</h3> <p>参数:</p> <ul><li>实参:实际参与运算的数据</li> <li>形参:相当于函数内部声明的变量，未赋值，占位</li></ul></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/myBlog/handbook/10.html" class="prev">
+          移动端开发之流式布局
+        </a></span> <span class="next"><a href="/myBlog/handbook/7.html">
+          原生ajax与跨域方法
+        </a></span></p></div> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:0;" data-v-ac050c62></ul></main></div> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/myBlog/assets/js/app.2e46e0e4.js" defer></script><script src="/myBlog/assets/js/3.9490caa6.js" defer></script><script src="/myBlog/assets/js/1.ef43800b.js" defer></script><script src="/myBlog/assets/js/26.82854dc9.js" defer></script>
+  </body>
+</html>
